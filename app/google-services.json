@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131538231682",
+    "firebase_url": "https://hostelassist-30e73-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hostelassist-30e73",
+    "storage_bucket": "hostelassist-30e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131538231682:android:cdc6627ce3738da808af9b",
+        "android_client_info": {
+          "package_name": "com.example.hostelassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131538231682-5f4tv3dl64m9j1mem21u41j005bku9lv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostelassist",
+            "certificate_hash": "980bcdb73159ec5b2657756cf709e6cd653beae6"
+          }
+        },
+        {
+          "client_id": "131538231682-8hkin5rh8sf559e2cgh7c5avm94sf3r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyQm1va-DbV9n-0_97WMWR4msHgagw2jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131538231682-8hkin5rh8sf559e2cgh7c5avm94sf3r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

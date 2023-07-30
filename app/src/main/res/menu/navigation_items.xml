@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_mess"
+        android:icon="@drawable/icon_mess"
+        android:title="Mess"/>
+
+    <item
+        android:id="@+id/nav_complaint"
+        android:icon="@drawable/icon_complaints"
+        android:title="Complaints"/>
+
+
+    <item android:title="User Update"
+        >
+      <menu>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_nav_user"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_pass"
+            android:icon="@drawable/icon_pass"
+            android:title="Update Password"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Logout"
+            />
+      </menu>
+    </item>
+  </group>
+
+
+</menu>

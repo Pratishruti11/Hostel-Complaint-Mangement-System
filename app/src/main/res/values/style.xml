@@ -1,0 +1,34 @@
+
+<resources>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/grey</item>
+        <item name="colorAccent">@color/color_login_button</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="FilledBoxEndIconTint" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="endIconTint">@color/white</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/pressed_login</item>
+        <item name="colorAccent">@color/color_login_button</item>
+        <item name="actionBarTheme">@color/color_login_button</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:actionBarTabTextStyle">@color/white</item>
+    </style>
+    <style name="MyNavigationTheme" parent="Base.Theme.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:verticalSpacing">2dp</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listDivider">@color/white</item>
+        <item name="android:textColorSecondary">@color/nav_icon_color</item>
+        <item name="listPreferredItemHeight">0.5dp</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/golden</item>
+    </style>
+
+</resources>

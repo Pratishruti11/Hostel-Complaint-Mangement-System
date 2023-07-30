@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:weightSum="20"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+    android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_height="217dp"
+        android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="213dp"
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/login_logo"
+        app:layout_row="0"
+        app:layout_column="0"
+        android:id="@+id/imageView"/>
+
+</androidx.gridlayout.widget.GridLayout>
+
+
+    -<androidx.gridlayout.widget.GridLayout
+        android:layout_height="239dp"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp">
+
+    <ImageButton android:layout_height="125dp"
+        android:layout_width="149dp"
+        app:srcCompat="@drawable/complaint_image"
+        app:layout_row="0"
+        app:layout_column="0"
+        android:id="@+id/complaintButton"
+        app:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_height="87dp"
+        android:layout_width="match_parent"
+        app:layout_row="0"
+        app:layout_column="0"
+        android:id="@+id/textView"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="COMPLAINT"
+        android:gravity="center"/>
+
+</androidx.gridlayout.widget.GridLayout>
+
+
+    -<androidx.gridlayout.widget.GridLayout
+        android:layout_height="212dp"
+        android:layout_width="match_parent">
+
+    <ImageButton android:layout_height="129dp"
+        android:layout_width="147dp"
+        app:srcCompat="@drawable/mess_image"
+        app:layout_row="0"
+        app:layout_column="0"
+        android:id="@+id/messButton"
+        android:paddingTop="10dp"
+        app:layout_gravity="center"/>
+
+    <TextView android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_row="0"
+        app:layout_column="0"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="MESS"
+        android:gravity="center"/>
+
+</androidx.gridlayout.widget.GridLayout>
+
+</LinearLayout>
+
+</LinearLayout>

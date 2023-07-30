@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">HostelAssist</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="remember_me">Remember me</string>
+    <string name="already_have_account">Already Have An Account?</string>
+    <string name="login_here">Login Here</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="mess_title">Mess Part</string>
+
+    <string name="item_name">Fried Rice, Tea,\nTomato Chutney ,\n Moong Dal , Boiled egg ,\nBanana ,Paneer Bhurji</string>
+
+    <item name="item_id" type="id" />
+
+    <string-array name="hostel">
+        <item>Freshers Hostel</item>
+        <item>Hostel 1</item>
+        <item>Hostel 2</item>
+        <item>Hostel 3</item>
+        <item>Hostel 4</item>
+        <item>Hostel 5</item>
+        <item>Hostel 6</item>
+        <item>Hostel 7</item>
+        <item>Hostel 8</item>
+        <item>Hostel 9</item>
+        <item>Hostel 10</item>
+
+    </string-array>
+
+    <string-array name="Complaint_type">
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>House-Keeping</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="feedbackAbout">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snacks</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string-array name="dayOfWeek">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+</resources>
